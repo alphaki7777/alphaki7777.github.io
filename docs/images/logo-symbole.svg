@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Le Mans Conciergerie">
+  <!-- Version simplifiée de la porte gravée, pour les petites tailles -->
+  <path d="M11 58 V30 A21 21 0 0 1 53 30 V58" fill="none" stroke="#2f5d50" stroke-width="3"/>
+  <path d="M17 30 A15 15 0 0 1 47 30 Z" fill="#2f5d50"/>
+  <path d="M32 30 V17.5 M32 30 L22.5 20.5 M32 30 L41.5 20.5" stroke="#faf8f4" stroke-width="1.4"/>
+  <rect x="17" y="32" width="14.2" height="26" fill="#2f5d50"/>
+  <rect x="32.8" y="32" width="14.2" height="26" fill="#2f5d50"/>
+  <circle cx="28.4" cy="46" r="2.3" fill="none" stroke="#c8714b" stroke-width="1.6"/>
+  <circle cx="35.6" cy="46" r="2.3" fill="none" stroke="#c8714b" stroke-width="1.6"/>
+  <rect x="7" y="58" width="50" height="3.5" rx="1" fill="#c8714b"/>
+</svg>

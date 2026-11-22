@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" role="img" aria-label="Le Mans Conciergerie, votre bien entre de bonnes mains">
+    <rect x="30" y="20" width="340" height="430" fill="#faf8f4" stroke="#2f5d50" stroke-width="4"/>
+    <rect x="42" y="32" width="316" height="406" fill="none" stroke="#c8714b" stroke-width="1.2"/>
+    <g fill="#c8714b"><path d="M42 32 h16 a16 16 0 0 1 -16 16 z"/><path d="M358 32 h-16 a16 16 0 0 0 16 16 z"/><path d="M42 438 h16 a16 16 0 0 0 -16 -16 z"/><path d="M358 438 h-16 a16 16 0 0 1 16 -16 z"/></g>
+    <text x="200" y="68" text-anchor="middle" font-family="Fraunces,Georgia,serif" font-weight="600" font-size="30" letter-spacing="9" fill="#2f5d50">LE MANS</text>
+    <text x="200" y="92" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-weight="600" font-size="13" letter-spacing="7" fill="#2f5d50">CONCIERGERIE</text>
+    <path d="M120 104 H176 M224 104 H280" stroke="#c8714b" stroke-width="1.5"/><circle cx="200" cy="104" r="3" fill="#c8714b"/>
+    <!-- Arche en pierre -->
+    <path d="M108 372 V214 A92 92 0 0 1 292 214 V372" fill="none" stroke="#2f5d50" stroke-width="3"/>
+    <path d="M126 372 V214 A74 74 0 0 1 274 214 V372" fill="#f1ece3" stroke="#2f5d50" stroke-width="2.5"/>
+    <g stroke="#2f5d50" stroke-width="2">
+      <path d="M108 214 H126 M292 214 H274 M118 172 L134 180 M282 172 L266 180 M140 138 L152 152 M260 138 L248 152 M172 124 L178 141 M228 124 L222 141"/>
+      <path d="M108 250 H126 M108 290 H126 M108 330 H126 M292 250 H274 M292 290 H274 M292 330 H274"/>
+    </g>
+    <path d="M192 120 H208 L205 142 H195 Z" fill="#c8714b" stroke="#2f5d50" stroke-width="2"/>
+    <!-- Imposte -->
+    <path d="M136 214 A64 64 0 0 1 264 214 Z" fill="#2f5d50"/>
+    <g stroke="#f1ece3" stroke-width="2"><path d="M200 214 V152 M200 214 L155 169 M200 214 L245 169 M200 214 L141 190 M200 214 L259 190"/></g>
+    <path d="M176 214 A24 24 0 0 1 224 214" fill="none" stroke="#f1ece3" stroke-width="2"/>
+    <!-- Vantaux -->
+    <rect x="136" y="218" width="62" height="154" fill="#2f5d50"/>
+    <rect x="202" y="218" width="62" height="154" fill="#2f5d50"/>
+    <g fill="none" stroke="#7fa595" stroke-width="2">
+      <rect x="146" y="228" width="42" height="56" rx="2"/><rect x="146" y="296" width="42" height="64" rx="2"/>
+      <rect x="212" y="228" width="42" height="56" rx="2"/><rect x="212" y="296" width="42" height="64" rx="2"/>
+    </g>
+    <g fill="none" stroke="#c8714b" stroke-width="3"><circle cx="186" cy="300" r="7"/><circle cx="214" cy="300" r="7"/></g>
+    <g fill="#c8714b"><circle cx="186" cy="290" r="3"/><circle cx="214" cy="290" r="3"/></g>
+    <!-- Marches -->
+    <rect x="118" y="372" width="164" height="10" fill="#e2dbcf" stroke="#2f5d50" stroke-width="2"/>
+    <rect x="104" y="382" width="192" height="10" fill="#e2dbcf" stroke="#2f5d50" stroke-width="2"/>
+    <!-- Buis en pot -->
+    <g stroke="#2f5d50" stroke-width="2">
+      <path d="M64 392 L70 352 H96 L102 392 Z" fill="#c8714b"/><rect x="66" y="346" width="34" height="8" fill="#a85a38"/>
+      <circle cx="83" cy="318" r="26" fill="#3f7a69"/>
+      <path d="M298 392 L304 352 H330 L336 392 Z" fill="#c8714b"/><rect x="300" y="346" width="34" height="8" fill="#a85a38"/>
+      <circle cx="317" cy="318" r="26" fill="#3f7a69"/>
+    </g>
+    <g fill="#7fa595"><circle cx="74" cy="310" r="4"/><circle cx="90" cy="324" r="3"/><circle cx="308" cy="310" r="4"/><circle cx="324" cy="324" r="3"/></g>
+    <path d="M56 392 H344" stroke="#2f5d50" stroke-width="2.5"/>
+    <text x="200" y="420" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-weight="600" font-size="11" letter-spacing="3" fill="#2f5d50">VOTRE BIEN ENTRE DE BONNES MAINS</text>
+  </svg>
