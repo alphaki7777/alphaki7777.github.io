@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Le Mans Conciergerie">
-  <rect width="64" height="64" rx="14" fill="#2f5d50"/>
+  <rect width="64" height="64" rx="14" fill="#1b2a44"/>
   <path d="M16 51 V29 A16 16 0 0 1 48 29 V51" fill="none" stroke="#faf8f4" stroke-width="2.6"/>
   <path d="M20.5 29 A11.5 11.5 0 0 1 43.5 29 Z" fill="#faf8f4"/>
-  <path d="M32 29 V19.5 M32 29 L24.8 21.8 M32 29 L39.2 21.8" stroke="#2f5d50" stroke-width="1.2"/>
+  <path d="M32 29 V19.5 M32 29 L24.8 21.8 M32 29 L39.2 21.8" stroke="#1b2a44" stroke-width="1.2"/>
   <rect x="20.5" y="30.5" width="10.8" height="20.5" fill="#faf8f4"/>
   <rect x="32.7" y="30.5" width="10.8" height="20.5" fill="#faf8f4"/>
-  <circle cx="29" cy="41.5" r="1.8" fill="none" stroke="#c8714b" stroke-width="1.4"/>
-  <circle cx="35" cy="41.5" r="1.8" fill="none" stroke="#c8714b" stroke-width="1.4"/>
-  <rect x="12" y="51" width="40" height="3" rx="1" fill="#e9a27f"/>
+  <circle cx="29" cy="41.5" r="1.8" fill="none" stroke="#4a6e5e" stroke-width="1.4"/>
+  <circle cx="35" cy="41.5" r="1.8" fill="none" stroke="#4a6e5e" stroke-width="1.4"/>
+  <rect x="12" y="51" width="40" height="3" rx="1" fill="#8fb0a0"/>
 </svg>

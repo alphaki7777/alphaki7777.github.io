@@ -1,0 +1,129 @@
+/* Gardéa : CSS propre au site, par-dessus le kit (assets/kit). Seulement ce que le kit n'a pas. */
+.g-mark { width: 30px; height: 30px; flex: none; color: var(--ink); margin-right: 10px; }
+.ground-inverse .g-mark, .footer--dark .g-mark { color: var(--p-inv-ink); }
+.nav__logo { display: inline-flex; align-items: center; font-family: var(--font-display); font-size: 24px; letter-spacing: -0.01em; }
+.nav__lang { font-weight: 600; font-size: var(--t-small); letter-spacing: .06em; }
+
+/* l'ouverture : le titre dans le bloc bleu nuit du cadre photo */
+.hero-notice { font-weight: 500; letter-spacing: .02em; }
+.hero--film h1 { max-width: 15ch; }
+
+/* offre de lancement */
+.launch { margin-top: var(--s-7); padding: var(--s-4) var(--s-5); border: 1.5px dashed var(--accent); border-radius: var(--r-md, 12px); max-width: 72ch; }
+.launch b { color: var(--accent); font-weight: 600; }
+
+/* calculateur */
+.calc { display: grid; gap: var(--s-6); padding: var(--s-6); }
+.calc__in { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s-4); align-items: end; }
+.calc__out { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: var(--s-5); border-top: 1px solid var(--line); padding-top: var(--s-5); }
+.calc__out dt { font-size: var(--t-small); color: var(--muted); }
+.calc__out dt small { display: block; font-size: 12px; margin-top: 2px; }
+.calc__out dd { font-family: var(--font-display); font-size: 32px; line-height: 1.1; margin-top: var(--s-2); font-variant-numeric: tabular-nums; color: var(--ink); }
+.calc__out .calc__main dd { font-size: var(--t-stat); color: var(--accent); }
+.calc__cmp { text-decoration: line-through; text-decoration-thickness: 1.5px; color: var(--muted) !important; }
+@media (max-width: 767px) { .calc__in, .calc__out { grid-template-columns: minmax(0, 1fr); } .calc { padding: var(--s-5); } }
+
+/* case de consentement */
+.field--check { grid-template-columns: 22px minmax(0, 1fr); align-items: start; gap: var(--s-3); font-weight: 400; }
+.field--check input { width: 20px; height: 20px; min-height: 0; margin-top: 2px; accent-color: var(--accent); padding: 0; }
+.field--check .field__error { grid-column: 2; }
+
+/* confiance */
+.trust-grid { --gutter: 16px; }
+.trust-grid .card { grid-column: span 6; }
+.trust-grid .card h3 { font-size: 20px; }
+.conf-ph { min-height: 420px; }
+.reviews { margin-top: var(--s-5); }
+@media (max-width: 1023px) { .conf-ph { min-height: 300px; } }
+@media (max-width: 639px) { .trust-grid .card { grid-column: 1 / -1; } }
+
+/* 24 Heures : le bandeau bleu nuit */
+.h24 .t-label { color: var(--p-inv-muted); }
+
+/* pages de texte */
+.prose h1 { font-size: clamp(40px, 4vw + 16px, 64px); margin-bottom: var(--s-6); }
+.prose h2 { font-size: 28px; margin: var(--s-7) 0 var(--s-3); }
+.prose p, .prose li { max-width: 68ch; }
+.prose p + p { margin-top: var(--s-3); }
+.prose ul { padding-left: 1.2em; display: grid; gap: var(--s-2); margin: var(--s-3) 0; }
+.prose a:not(.btn) { color: var(--action); text-underline-offset: 3px; }
+.todo { background: #fff1c2; color: #5b4300; border-radius: 4px; padding: 0 .3em; font-weight: 500; }
+
+/* la garantie : une phrase seule, grande, au centre de son écran */
+#garantie .wrap { min-height: calc(100svh - var(--nav) - var(--padt) - var(--padb)); display: flex; flex-direction: column; justify-content: center; gap: var(--s-5); }
+#garantie .mo-wh__text { font-family: var(--font-display); font-size: clamp(34px, 4.4vw + 8px, 76px); line-height: 1.08; letter-spacing: var(--display-tracking-xl); max-width: 20ch; }
+
+/* correctifs du contrôle */
+.hero--film .hero__over > div { max-width: 700px; }
+.hero--film h1 { max-width: 19ch; }
+.launch { max-width: none; }
+.launch b { color: var(--ink); }
+.rows__value a { overflow-wrap: anywhere; white-space: normal; }
+@media (max-width: 1023px) { .frame--fill { min-height: 320px; } }
+.faq__item > h3, .card--plan h3 { font-family: var(--font-display); font-weight: 400; font-size: 24px; letter-spacing: -0.01em; line-height: 1.2; }
+.card--plan .badge { align-self: flex-start; margin: 0; }
+.faq-cols .faq { columns: 2; column-gap: calc(var(--gutter) * 3); }
+.faq-cols .faq__item { break-inside: avoid; padding: 0 0 var(--s-5); margin-bottom: var(--s-5); }
+@media (max-width: 1023px) { .faq-cols .faq { columns: 1; } }
+.launch { border: 0; border-top: 1.5px dashed var(--accent); border-radius: 0; padding: var(--s-4) 0 0; }
+@media (max-width: 479px) { .nav__actions .btn { display: none; } }
+.faq-cols .faq { columns: auto; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--gutter); align-items: start; }
+.faq-cols .faq > .faq__item:nth-child(-n+2) { padding-top: 0; }
+@media (max-width: 1023px) { .faq-cols .faq { grid-template-columns: minmax(0, 1fr); } }
+.launch { margin-top: var(--s-6); }
+@media (max-width: 639px) {
+  .hero--film .hero__over { grid-template-columns: minmax(0, 1fr); }
+  .hero--film .hero__over .btn { white-space: normal; text-align: left; }
+}
+.calc__out dd { margin: var(--s-2) 0 0; }
+
+/* ===== Hauteurs naturelles : chaque section prend la place de son contenu (plus de vides ni de chevauchements) ===== */
+main > :is(section, .section):not(.hero):not([data-moment="pinned-chapters"]),
+footer.closing {
+  height: auto !important; min-height: 0 !important;
+  padding: clamp(72px, 8vw, 120px) 0 !important;
+  display: block !important;
+}
+main > :is(section, .section):not(.hero):not([data-moment="pinned-chapters"]) > .wrap,
+footer.closing > .wrap { height: auto !important; min-height: 0 !important; display: block; }
+main > section + section.surface, main > section.surface + section { }
+.frame--fill, .conf-ph { min-height: clamp(320px, 40vw, 560px); height: 100%; }
+.grid--top.fill, .grid.fill { align-items: stretch; }
+#garantie .wrap { min-height: 0 !important; display: flex !important; padding-block: clamp(24px, 4vw, 64px); }
+.prose-sec { padding-top: calc(var(--nav) + 48px) !important; }
+footer.closing .closing__links { margin-top: clamp(48px, 6vw, 96px); }
+@media (max-width: 639px) {
+  main > :is(section, .section):not(.hero):not([data-moment="pinned-chapters"]), footer.closing { padding: 64px 0 !important; }
+}
+p, li, dd, h1, h2, h3 { hyphens: manual; -webkit-hyphens: manual; }
+
+/* Le service en quatre étapes : quatre cartes alignées */
+#fonctionnement .section-head--split { display: flex; justify-content: space-between; align-items: end; gap: var(--s-6); flex-wrap: wrap; margin-bottom: var(--s-7); }
+#fonctionnement .section-head--split .t-lead { max-width: 36ch; color: var(--muted); }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--gutter); counter-reset: none; }
+.step { display: flex; flex-direction: column; gap: var(--s-3); background: var(--surface); border-radius: var(--r-lg, 16px); padding: var(--s-3) var(--s-3) var(--s-5); transition: transform .3s var(--ease-out, ease), box-shadow .3s; }
+.step:hover { transform: translateY(-2px); box-shadow: 0 12px 28px -18px rgba(27,42,68,.45); }
+.step__ph { margin: 0 0 var(--s-2); aspect-ratio: 4 / 3; border-radius: calc(var(--r-lg, 16px) - 6px); overflow: hidden; }
+.step__ph img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s; }
+.step:hover .step__ph img { transform: scale(1.03); }
+.step__n { font-family: var(--font-display); font-size: 40px; line-height: 1; color: var(--accent); padding-inline: var(--s-2); }
+.step h3 { font-family: var(--font-text); font-weight: 600; font-size: 18px; line-height: 1.3; padding-inline: var(--s-2); margin: 0; }
+.step p { color: var(--muted); font-size: 15px; padding-inline: var(--s-2); margin: 0; }
+@media (max-width: 1023px) { .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 599px) { .steps { grid-template-columns: minmax(0, 1fr); } }
+
+/* ===== unslop : passe de finition ===== */
+/* titres d'une seule teinte, phrase d'appui en dessous */
+.section-head--split .t-lead, .stack-5 > h2 + .t-lead, .stack-6 > h2 + .t-lead { color: var(--muted); margin-top: 0; }
+/* étiquette de formule : texte discret, plus de pastille */
+.plan-tag { margin: 0; font-size: var(--t-small); font-weight: 500; color: var(--accent); }
+/* étapes : repère horaire en chasse fixe (la signature), survol sans mouvement */
+.step { padding: 12px 12px 24px; gap: 12px; border: 1px solid transparent; transition: border-color .2s ease, background-color .2s ease; }
+.step:hover { transform: none; box-shadow: none; border-color: rgba(27, 42, 68, .12); background-color: #fff; }
+.step:hover .step__ph img { transform: none; }
+.step__ph { margin: 0 0 4px; border-radius: 8px; }
+.step__meta { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding-inline: 8px; margin: 0; }
+.step__n { padding: 0; font-size: 36px; }
+.step__when { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.step h3, .step > p:last-child { padding-inline: 8px; }
+.step h3 { font-weight: 500; }

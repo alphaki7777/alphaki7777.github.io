@@ -1,166 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Remplacez votre-domaine.fr par votre vrai nom de domaine -->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://www.votre-domaine.fr/</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/"/>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/partage-le-mans-conciergerie.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1560448204-e02f11c3d0e2-1800.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1581578731548-c64695cc6952-1000.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1505693416388-ac5ce068fe85-1000.jpg</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/en/</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/"/>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/partage-le-mans-conciergerie.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1560448204-e02f11c3d0e2-1800.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1581578731548-c64695cc6952-1000.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1505693416388-ac5ce068fe85-1000.jpg</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/conciergerie-airbnb.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/conciergerie-airbnb.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/airbnb-booking-management.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/conciergerie-airbnb.html"/>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/en/airbnb-booking-management.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/conciergerie-airbnb.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/airbnb-booking-management.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/conciergerie-airbnb.html"/>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/services.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/services.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/services.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/services.html"/>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1581578731548-c64695cc6952-1000.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1505693416388-ac5ce068fe85-1000.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1522708323590-d24dbb6b0267-800.jpg</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/en/services.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/services.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/services.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/services.html"/>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1581578731548-c64695cc6952-1000.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1505693416388-ac5ce068fe85-1000.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1522708323590-d24dbb6b0267-800.jpg</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/faq.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/faq.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/faq.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/faq.html"/>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/en/faq.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/faq.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/faq.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/faq.html"/>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/que-faire-au-mans.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/que-faire-au-mans.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/things-to-do-in-le-mans.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/que-faire-au-mans.html"/>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/en/things-to-do-in-le-mans.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/que-faire-au-mans.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/things-to-do-in-le-mans.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/que-faire-au-mans.html"/>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/blog.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/blog.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/blog.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/blog.html"/>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/en/blog.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/blog.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/blog.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/blog.html"/>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/blog/louer-son-logement-24-heures-du-mans.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/blog/louer-son-logement-24-heures-du-mans.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/blog/renting-your-home-24-hours-of-le-mans.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/blog/louer-son-logement-24-heures-du-mans.html"/>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1600585154340-be6161a56a0c-2000.jpg</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/en/blog/renting-your-home-24-hours-of-le-mans.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/blog/louer-son-logement-24-heures-du-mans.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/blog/renting-your-home-24-hours-of-le-mans.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/blog/louer-son-logement-24-heures-du-mans.html"/>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1600585154340-be6161a56a0c-2000.jpg</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/blog/meuble-de-tourisme-le-mans-regles.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/blog/meuble-de-tourisme-le-mans-regles.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/blog/furnished-holiday-let-le-mans-rules.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/blog/meuble-de-tourisme-le-mans-regles.html"/>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1586023492125-27b2c045efd7-800.jpg</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/en/blog/furnished-holiday-let-le-mans-rules.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/blog/meuble-de-tourisme-le-mans-regles.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/blog/furnished-holiday-let-le-mans-rules.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/blog/meuble-de-tourisme-le-mans-regles.html"/>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1586023492125-27b2c045efd7-800.jpg</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/blog/preparer-logement-avis-5-etoiles.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/blog/preparer-logement-avis-5-etoiles.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/blog/preparing-your-home-for-5-star-reviews.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/blog/preparer-logement-avis-5-etoiles.html"/>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1631049307264-da0ec9d70304-800.jpg</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/en/blog/preparing-your-home-for-5-star-reviews.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/blog/preparer-logement-avis-5-etoiles.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/blog/preparing-your-home-for-5-star-reviews.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/blog/preparer-logement-avis-5-etoiles.html"/>
-    <image:image><image:loc>https://www.votre-domaine.fr/images/1631049307264-da0ec9d70304-800.jpg</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/audit.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/audit.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/audit.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/audit.html"/>
-  </url>
-  <url>
-    <loc>https://www.votre-domaine.fr/en/audit.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/audit.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/audit.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/audit.html"/>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://www.votre-domaine.fr/</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/"/></url>
+  <url><loc>https://www.votre-domaine.fr/en/</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/"/></url>
+  <url><loc>https://www.votre-domaine.fr/tarifs.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/tarifs.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/pricing.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/tarifs.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/en/pricing.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/tarifs.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/pricing.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/tarifs.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/services.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/services.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/services.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/services.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/en/services.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/services.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/services.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/services.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/qui-suis-je.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/qui-suis-je.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/about.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/qui-suis-je.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/en/about.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/qui-suis-je.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/about.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/qui-suis-je.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/faq.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/faq.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/faq.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/faq.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/en/faq.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/faq.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/faq.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/faq.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/que-faire-au-mans.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/que-faire-au-mans.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/things-to-do-in-le-mans.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/que-faire-au-mans.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/en/things-to-do-in-le-mans.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/que-faire-au-mans.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/things-to-do-in-le-mans.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/que-faire-au-mans.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/blog.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/blog.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/blog.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/blog.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/en/blog.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/blog.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/blog.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/blog.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/blog/louer-son-logement-24-heures-du-mans.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/blog/louer-son-logement-24-heures-du-mans.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/blog/renting-your-home-24-hours-of-le-mans.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/blog/louer-son-logement-24-heures-du-mans.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/en/blog/renting-your-home-24-hours-of-le-mans.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/blog/louer-son-logement-24-heures-du-mans.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/blog/renting-your-home-24-hours-of-le-mans.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/blog/louer-son-logement-24-heures-du-mans.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/blog/meuble-de-tourisme-le-mans-regles.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/blog/meuble-de-tourisme-le-mans-regles.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/blog/furnished-holiday-let-le-mans-rules.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/blog/meuble-de-tourisme-le-mans-regles.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/en/blog/furnished-holiday-let-le-mans-rules.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/blog/meuble-de-tourisme-le-mans-regles.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/blog/furnished-holiday-let-le-mans-rules.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/blog/meuble-de-tourisme-le-mans-regles.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/blog/preparer-logement-avis-5-etoiles.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/blog/preparer-logement-avis-5-etoiles.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/blog/preparing-your-home-for-5-star-reviews.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/blog/preparer-logement-avis-5-etoiles.html"/></url>
+  <url><loc>https://www.votre-domaine.fr/en/blog/preparing-your-home-for-5-star-reviews.html</loc><xhtml:link rel="alternate" hreflang="fr" href="https://www.votre-domaine.fr/blog/preparer-logement-avis-5-etoiles.html"/><xhtml:link rel="alternate" hreflang="en" href="https://www.votre-domaine.fr/en/blog/preparing-your-home-for-5-star-reviews.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.votre-domaine.fr/blog/preparer-logement-avis-5-etoiles.html"/></url>
 </urlset>

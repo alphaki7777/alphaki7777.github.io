@@ -1,9 +1,5 @@
-# Gardéa, conciergerie Airbnb au Mans
 User-agent: *
 Allow: /
-# Planches de logos internes : à ne pas indexer (ne pas mettre en ligne idéalement)
-Disallow: /logos/
-Disallow: /marketing/
+Disallow: /outils/
 
-# Remplacez votre-domaine.fr par votre vrai nom de domaine
 Sitemap: https://www.votre-domaine.fr/sitemap.xml

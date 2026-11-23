@@ -1,4 +1,4 @@
-/* Le Mans Conciergerie : script commun à toutes les pages.
+/* Gardéa : script commun à toutes les pages.
    Chaque bloc ne s'active que si les éléments concernés existent sur la page. */
 document.documentElement.classList.add('js');
 const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -17,7 +17,7 @@ function animate(dur, draw) {
   setTimeout(() => { if (!done) { done = true; draw(1); } }, dur + 120);
 }
 const WEB3FORMS_KEY = '7c89f90e-c488-481c-9d68-d91c05da00f8'; // clé Web3Forms (publique, faite pour être dans la page)
-const CONTACT_EMAIL = 'gardea.conciergerie@outlook.fr';
+const CONTACT_EMAIL = 'lemansconciergerie@gmail.com';
 
 /* ---------- Mesure d'audience et publicité (SEA / SMO) ----------
    Collez vos identifiants pour activer le suivi sur TOUT le site. Rien n'est chargé
@@ -80,7 +80,7 @@ function trackLead(name) {
   if (window.fbq) fbq('track', 'Lead');
 }
 function sendForm(data) {
-  data.access_key = WEB3FORMS_KEY; data.from_name = 'Site Le Mans Conciergerie' + (EN ? ' (EN)' : ''); if (EN) { data.subject = '[EN] ' + data.subject; data.langue = 'anglais (version EN du site)'; } data.provenance = sourceInfo();
+  data.access_key = WEB3FORMS_KEY; data.from_name = 'Site Gardéa' + (EN ? ' (EN)' : ''); if (EN) { data.subject = '[EN] ' + data.subject; data.langue = 'anglais (version EN du site)'; } data.provenance = sourceInfo();
   return fetch('https://api.web3forms.com/submit', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(data) })
     .then(r => r.json()).then(r => { if (String(r.success) !== 'true') throw new Error(r.message); return r; });
 }
@@ -338,19 +338,19 @@ if (cform) {
   const msg = $('#formMsg');
   cform.addEventListener('submit', e => {
     e.preventDefault();
-    $$('.f', cform).forEach(f => f.classList.remove('bad'));
+    $$('.f, .chk', cform).forEach(f => f.classList.remove('bad'));
     const bad = $$('[required]', cform).filter(f => !f.checkValidity());
     if (bad.length) {
-      bad.forEach(f => f.closest('.f').classList.add('bad')); bad[0].focus();
-      msg.className = 'msg err'; msg.textContent = L('Il manque : ', 'Please fill in: ') + bad.map(f => lowerFirst(f.labels[0].textContent)).join(', ') + '.'; return;
+      bad.forEach(f => f.closest('.f, .chk').classList.add('bad')); bad[0].focus();
+      msg.className = 'msg err'; msg.textContent = L('Il manque : ', 'Please fill in: ') + bad.map(f => f.dataset.name || lowerFirst(f.labels[0].textContent)).join(', ') + '.'; return;
     }
     const btn = $('button[type=submit]', cform); btn.disabled = true;
     msg.className = 'msg'; msg.textContent = L('Envoi en cours…', 'Sending…');
     const data = Object.fromEntries(new FormData(cform));
-    data.subject = 'Nouvelle demande Le Mans Conciergerie – ' + data.nom + ' (' + data.surface + ' m², ' + data.quartier + ')';
+    data.subject = 'Gardéa : propriétaire pilote – ' + data.nom + ' (' + data.type_logement + ', ' + data.quartier + ')';
     data.replyto = data.email;
     sendForm(data).then(() => {
-      msg.className = 'msg ok'; msg.textContent = L('Merci ' + data.nom.split(' ')[0] + ', votre demande est bien envoyée. Nous vous rappelons sous 24 h.', 'Thank you ' + data.nom.split(' ')[0] + ', your request has been sent. We\'ll call you back within 24 hours.');
+      msg.className = 'msg ok'; msg.textContent = L('Merci ' + data.nom.split(' ')[0] + ', votre demande est bien envoyée. Je vous rappelle rapidement pour fixer un rendez-vous.', 'Thank you ' + data.nom.split(' ')[0] + ', your request has been sent. I\'ll call you back shortly to arrange a visit.');
       trackLead('contact'); cform.reset();
     }).catch(() => {
       msg.className = 'msg err'; msg.textContent = L('L\'envoi a échoué. Écrivez-nous directement à ', 'Sending failed. Please email us directly at ') + CONTACT_EMAIL + '.';
@@ -478,4 +478,27 @@ $$('[data-tiers]').forEach(box => {
   range.addEventListener('input', () => draw(+range.value));
   $$('.tiers-chips button', box).forEach(b => b.addEventListener('click', () => { range.value = b.dataset.v; draw(+b.dataset.v); }));
   draw(+range.value);
+});
+
+/* ---------- Gardéa : offre de lancement, avis Google, calculateur des tarifs ---------- */
+// Offre de lancement : retirée automatiquement après la date de data-offre-fin (outils/config.py)
+(() => {
+  const fin = document.body.dataset.offreFin;
+  if (!fin || new Date() > new Date(fin + 'T23:59:59')) $$('[data-offre-lancement]').forEach(b => b.remove());
+})();
+// Avis Google : rien ne s'affiche tant que GOOGLE_REVIEWS_URL (outils/config.py) est vide
+(() => {
+  const url = document.body.dataset.reviews;
+  if (url) $$('[data-google-reviews]').forEach(b => { $('a', b).href = url; b.hidden = false; });
+})();
+// Calculateur : tout est calculé dans le navigateur, rien n'est envoyé
+$$('[data-calc]').forEach(f => {
+  const n = id => Math.max(0, +$(id, f).value || 0);
+  const draw = () => {
+    const montant = n('#k-montant'), nb = Math.round(n('#k-nb')), forfait = +$('#k-type', f).value;
+    $('[data-k=com]', f).textContent = fmt(Math.round(montant * .15));
+    $('[data-k=men]', f).textContent = fmt(nb * forfait);
+    $('[data-k=cmp]', f).textContent = fmt(Math.round(montant * .22));
+  };
+  f.addEventListener('input', draw); f.addEventListener('submit', e => e.preventDefault()); draw();
 });
