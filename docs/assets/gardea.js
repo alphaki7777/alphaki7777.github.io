@@ -1,4 +1,4 @@
-/* Gardéa : offre de lancement, avis Google, calculateur des tarifs. Le reste (menu, formulaires, animations) : assets/kit. */
+/* Le Mans Conciergerie : offre de lancement, avis Google, calculateur des tarifs. Le reste (menu, formulaires, animations) : assets/kit. */
 (() => {
   const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const EN = /^en/i.test(document.documentElement.lang);

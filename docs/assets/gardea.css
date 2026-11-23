@@ -1,4 +1,4 @@
-/* Gardéa : CSS propre au site, par-dessus le kit (assets/kit). Seulement ce que le kit n'a pas. */
+/* Le Mans Conciergerie : CSS propre au site, par-dessus le kit (assets/kit). Seulement ce que le kit n'a pas. */
 .g-mark { width: 30px; height: 30px; flex: none; color: var(--ink); margin-right: 10px; }
 .ground-inverse .g-mark, .footer--dark .g-mark { color: var(--p-inv-ink); }
 .nav__logo { display: inline-flex; align-items: center; font-family: var(--font-display); font-size: 24px; letter-spacing: -0.01em; }
